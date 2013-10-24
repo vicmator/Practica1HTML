@@ -1,3 +1,33 @@
 body {
+	background-color: #33FFFF;
+}
 
+#sectionLeft{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-color: #33FFFF;
+}
+
+#sectionRight{
+	float:left;
+	width: 75%;
+	background-color: #33CCFF;
+}
+
+section p{
+	margin-left: 29px;
+	float:left;
+}
+
+#articleInf{
+	margin-left: 5px;
+}
+
+#cara{
+	float:left;
+}
+
+nav li {
+  padding: 0;
 }
