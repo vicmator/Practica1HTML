@@ -15,8 +15,8 @@ body {
 	background-color: #33CCFF;
 }
 
-section p{
-	margin-left: 29px;
+#articleTop{
+	padding-left: 10px;
 	float:left;
 }
 
@@ -25,9 +25,26 @@ section p{
 }
 
 #cara{
-	float:left;
+	
 }
 
-nav li {
-  padding: 0;
+#correo{
+	height:75px;
+	width: 75px;
+}
+
+#mobile{
+	height:75px;
+	width: 75px;
+}
+
+
+#foto{
+	height: 150px;
+	width:  150px;
+	align:center;
+}
+
+#listaIzq{
+	list-style-type: none;
 }
