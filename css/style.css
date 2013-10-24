@@ -1,31 +1,30 @@
 body {
-	background-color: #33FFFF;
 }
 
-#sectionLeft{
+#articleIzq{
 	float: left;
 	width: 25%;
 	height: 100%;
 	background-color: #33FFFF;
 }
 
-#sectionRight{
+#articleRight{
 	float:left;
 	width: 75%;
 	background-color: #33CCFF;
 }
 
-#articleTop{
-	padding-left: 10px;
+#sectionTop{
 	float:left;
 }
 
-#articleInf{
-	margin-left: 5px;
+#sectionCenter{
+	float:left;
+	margin-left: 100px;
 }
 
-#cara{
-	
+#sectionInf{
+	float:right;
 }
 
 #correo{
@@ -42,7 +41,7 @@ body {
 #foto{
 	height: 150px;
 	width:  150px;
-	align:center;
+	background-color: #33FFFF;
 }
 
 #listaIzq{
