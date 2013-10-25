@@ -8,23 +8,25 @@ nav ul li{
 #articleIzq{
 	float: left;
 	width: 25%;
-	height: 500px;
+	height: 1000px;
 	background-color: #33FFFF;
 }
 
 #articleRight{
 	float:left;
 	width: 75%;
-	height:500px;
+	height:1000px;
 	background-color: #33CCFF;
 }
 
 #sectionTop{
 	float:left;
+	margin: 10px 85px 22px;
 }
 
 #sectionCenter{
 	float:left;
+	width:50%;
 	margin-left: 100px;
 }
 
@@ -32,27 +34,40 @@ nav ul li{
 	width: 10%;
 }
 
-#correo{
-	height:75px;
-	width: 75px;
+#logo{
+	margin: 20px 44px;
+	width: 175px;
+	border-radius: 10px;
 }
-
-#mobile{
-	height:75px;
-	width: 75px;
-}
-
 
 #foto{
 	height: 150px;
 	width:  150px;
 	background-color: #33FFFF;
+	margin: 15px 20px -10px 15px;
+	border-radius: 10px;
 }
 
-#sectionInf ul li{
-	list-style: none;
+#fotoInf{
+	width: 40px;
+	height: 40px;
+	
+}
+
+hr{
+	width: 600px;
+	float: left;
+	margin: 45px -222px 24px;
 }
 
 #listaIzq{
 	list-style: none;
 }
+
+#sectionInf ul li{
+	list-style: none;
+	margin: 0 40px;
+}
+
+#articleRight #sec
+
