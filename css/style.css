@@ -1,4 +1,5 @@
-body {
+html, body {
+	width:100%;
 }
 
 nav ul li{
@@ -57,7 +58,7 @@ h4{
 	border-radius: 10px;
 }
 
-#fotoInf{
+#fotoInf1, #fotoInf2, #fotoInf3, #fotoInf4, #fotoInf5{
 	width: 40px;
 	height: 40px;
 	
@@ -78,6 +79,4 @@ hr{
 	list-style: none;
 	margin: 0 40px;
 }
-
-#articleRight #sec
 
