@@ -1,82 +1,92 @@
 html, body {
-	width:100%;
+	width: 100%;
 }
 
-nav ul li{
-	padding: 5px;
-	color: #3399FF;
-}
+/*Articulo de la Izquierda y sus propiedades*/
 
-h3{
-	color: #3399FF;
-}
-
-h4{
-	color: #339933;
-}
-
-#articleIzq{
+#articleIzq {
 	float: left;
 	width: 25%;
 	height: 1000px;
 	background-color: #33FFFF;
 }
 
-#articleRight{
-	float:left;
-	width: 75%;
-	height:1000px;
-	background-color: #33CCFF;
-}
-
-#sectionTop{
-	float:left;
-	margin: 10px 85px 22px;
-}
-
-#sectionCenter{
-	float:left;
-	width:50%;
-	margin-left: 100px;
-}
-
-#sectionInf{
-	width: 10%;
-}
-
-#logo{
+#logo {
 	margin: 20px 44px;
 	width: 175px;
 	border-radius: 10px;
 }
 
-#foto{
+#listaIzq {
+	margin: 0 44px;
+	width: 134px;
+}
+
+nav ul li {
+	padding: 5px;
+	color: #3399FF;
+}
+
+/*Artículo de la derecha*/
+
+#articleRight {
+	float: left;
+	width: 75%;
+	height: 1000px;
+	background-color: #33CCFF;
+}
+
+		/*Sección superior Izq con los datos*/
+
+#sectionTop {
+	float: left;
+	margin: 10px 85px 22px;
+}
+
+h3 {
+	color: #3399FF;
+}
+
+h4 {
+	color: #339933;
+}
+
+		/*Sección superior derecha (Central) de la imágem*/
+
+#sectionCenter {
+	float: left;
+	width: 50%;
+	margin-left: 100px;
+}
+
+#foto {
 	height: 150px;
-	width:  150px;
+	width: 150px;
 	background-color: #33FFFF;
 	margin: 15px 20px -10px 15px;
 	border-radius: 10px;
 }
 
-#fotoInf1, #fotoInf2, #fotoInf3, #fotoInf4, #fotoInf5{
-	width: 40px;
-	height: 40px;
-	
+		/*Sección inferior (logos)*/
+
+#sectionInf {
+	width: 45%;
 }
 
-hr{
+#sectionInf ul li {
+	list-style: none;
+	margin: 0 40px 15px;
+}
+
+#fotoInf1, #fotoInf2, #fotoInf3, #fotoInf4, #fotoInf5 {
+	width: 40px;
+	height: 40px;
+}
+
+/*Línea*/
+hr {
 	width: 600px;
 	float: left;
 	margin: 45px -222px 24px;
-}
-
-#listaIzq{
-	margin: 0 44px;
-	width: 134px;
-}
-
-#sectionInf ul li{
-	list-style: none;
-	margin: 0 40px;
 }
 
