@@ -81,6 +81,7 @@ h4 {
 #fotoInf1, #fotoInf2, #fotoInf3, #fotoInf4, #fotoInf5 {
 	width: 40px;
 	height: 40px;
+	padding-right: 10px;
 }
 
 /*Línea*/
